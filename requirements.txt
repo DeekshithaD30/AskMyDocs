@@ -1,0 +1,30 @@
+# Core API framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# PDF text extraction
+pypdf==4.2.0
+
+# Embedding model (downloads ~80MB model on first run)
+sentence-transformers==3.0.1
+
+# Vector similarity search
+faiss-cpu==1.8.0
+
+# Numerical operations (required by sentence-transformers and faiss)
+numpy==1.26.4
+
+# Gemini LLM — supported Google GenAI SDK
+google-genai==2.28.0
+
+# For handling file uploads in FastAPI
+python-multipart==0.0.9
+
+# Environment variable loading used by the Gemini client
+python-dotenv==1.0.1
+
+# Used by the optional evaluation script
+requests==2.32.3
+
+# Data validation (FastAPI and google-genai require the Pydantic v2 series)
+pydantic==2.13.5

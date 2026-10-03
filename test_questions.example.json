@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is the main topic of this document?",
+    "expected_keywords": []
+  },
+  {
+    "question": "What methodology or approach does the document describe?",
+    "expected_keywords": ["method", "approach"]
+  },
+  {
+    "question": "What are the key findings or conclusions?",
+    "expected_keywords": ["result", "conclusion", "finding"]
+  }
+]
